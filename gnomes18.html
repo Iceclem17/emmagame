@@ -5,6 +5,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
 <body style="text-align:center">
+<script>
+  // Bypass WebFont qui bloque le démarrage
+  window.WebFontConfig = {
+    google: { families: ['Noto Sans'] },
+    active: function() {}
+  };
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 <script nonce="kZtm7-HJubZ4fUlZhBPlxA">
   window.google={};
   window.google.doodle={};
